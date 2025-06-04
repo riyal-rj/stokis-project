@@ -9,9 +9,28 @@ export default function Home() {
       />
 
       {/* Project Title */}
-      <h1 style={{ fontSize: '1.8rem', marginBottom: '1rem' }}>
+      <h1 style={{ fontSize: '1.8rem', marginBottom: '0.5rem' }}>
         STOKIS – Stock Trends Outlook using Key Indicators and Sentiment
       </h1>
+
+      {/* Team Members (Horizontal) */}
+      <div
+        style={{
+          display: 'flex',
+          justifyContent: 'center',
+          flexWrap: 'wrap',
+          gap: '1.5rem',
+          fontSize: '0.95rem',
+          margin: '1rem 0',
+          color: '#333',
+        }}
+      >
+        <span><strong>Ankit Paul</strong> (16900121034)</span>
+        <span><strong>Arpan De</strong> (16900121058)</span>
+        <span><strong>Ritankar Jana</strong> (16900121054)</span>
+        <span><strong>Hindol Banerjee</strong> (16900121051)</span>
+        <span><strong>Mayukh Chakroborty</strong> (16900121033)</span>
+      </div>
 
       {/* Subtitle */}
       <p style={{ fontSize: '1rem', color: '#555', marginBottom: '2rem' }}>
@@ -29,16 +48,18 @@ export default function Home() {
       {/* Download Button */}
       <br />
       <a href="/CSE1_GROUP_NO_2 (1).pdf" download>
-        <button style={{
-          marginTop: '1rem',
-          padding: '10px 20px',
-          fontSize: '1rem',
-          backgroundColor: '#0070f3',
-          color: 'white',
-          border: 'none',
-          borderRadius: '6px',
-          cursor: 'pointer'
-        }}>
+        <button
+          style={{
+            marginTop: '1rem',
+            padding: '10px 20px',
+            fontSize: '1rem',
+            backgroundColor: '#0070f3',
+            color: 'white',
+            border: 'none',
+            borderRadius: '6px',
+            cursor: 'pointer',
+          }}
+        >
           Download PDF
         </button>
       </a>
