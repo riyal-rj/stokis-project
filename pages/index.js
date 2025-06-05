@@ -39,7 +39,7 @@ export default function Home() {
 
       {/* Embedded PDF */}
       <iframe
-        src="/CSE1_GROUP_NO_2 (1).pdf"
+        src="/CSE1_GROUP_NO_2.pdf"
         width="100%"
         height="600px"
         style={{ border: '1px solid #ccc', borderRadius: '8px' }}
